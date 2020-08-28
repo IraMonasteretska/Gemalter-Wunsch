@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Start head -->
+<head>
+    <meta charset="utf-8"/>
+    <title>Front-end</title>
+
+    <!-- SEO meta tags -->
+    <!-- <meta property="og:url" content="url" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="title" />
+        <meta property="og:description" content="description"/>
+        <meta property="og:image" content="url" />
+        <meta property="og:site_name" content="title" />
+        <meta name="twitter:card" content=summary />
+        <meta name="twitter:description" content="description"/>
+        <meta name="twitter:title" content="title" /> -->
+    <!--End SEO meta tags -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+    <!-- Template Basic Images Start -->
+    <link rel="icon" href="img/favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon-180x180.png"/>
+    <!-- Template Basic Images End -->
+
+    <!-- Custom Browsers Color Start -->
+    <meta name="theme-color" content="#000"/>
+    <!-- Custom Browsers Color End -->
+
+
+    <style>
+        body {
+            opacity: 0;
+        }
+
+        .modal {
+            opacity: 0;
+        }
+
+        .dropdown-menu {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        @media screen and (max-width: 991px) {
+
+            .header nav {
+                transform: translate3d(100%, 0, 0);
+                visibility: hidden;
+            }
+
+            /*header mega menu */
+            .header.header-mega-menu nav {
+                transform: translate3d(100%, 0, 0);
+                visibility: hidden;
+            }
+        }
+    </style>
+<link href="main.css" rel="stylesheet"></head><!-- End head -->
+
+<!-- Body Modifications -->
+<!-- fixed header: header position: fixed -->
+
+<body class="fixed-header">
+<!-- Start site wrapper -->
+<div class="site-wrapper">
+
+    <!-- Start header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__row">
+                <a href="/" class="logo">
+                    <svg><use xlink:href="#logo"></use></svg>
+                </a>
+                <menu>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a class="scroll-to" href="#introduction">Автомобильный лизинг</a>
+                            </li>
+                            <li>
+                                <a href="">Vremde7</a>
+                            </li>
+                            <li>
+                                <a href="">Nabij de stad</a>
+                            </li>
+                            <li>
+                                <a href="">Plannen</a>
+                            </li>
+                            <li>
+                                <a href="default.html" class="btn-dark">Default</a>
+                            </li>
+                            <li>
+                                <a href="">Vremde7</a>
+                            </li>
+                            <li>
+                                <a href="">Nabij de stad</a>
+                            </li>
+                            <li>
+                                <a href="">Plannen</a>
+                            </li>
+                            <li>
+                                <a href="default.html" class="btn-dark">Default</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- Nav for wordpress start -->
+                    <!-- Nav for wordpress end -->
+                    <div class="burger hidden-on-desktop">
+                        <span>&nbsp;</span>
+                        <span>&nbsp;</span>
+                        <span>&nbsp;</span>
+                    </div>
+                </menu>
+            </div>
+        </div>
+    </header>
+    <!-- End header -->
+
+    <svg>
+        <use xlink:href="#icon-basket"></use>
+    </svg>
+
+    <!--Start page-->
+    <div class="page-wrapper page-home">
+
+        <div class="container">
+            <div class="btn"><span>Більше новин</span></div>
+            <div class="btn btn--lines"><span>Більше новин</span></div>
+        </div>
+
+        <!--		&lt;!&ndash; Start preloader&ndash;&gt;-->
+        <!--		<div class="preloader">
+  <div class="preloader__logo">
+    <blockquote>
+      In the middle of difficulty lies opportunity
+    </blockquote>
+    <span class="quote-author">Albert Einstein</span>
+  </div>
+</div>-->
+        <!--		&lt;!&ndash; End preloader &ndash;&gt;-->
+
+        <!-- Start introduction -->
+        <!-- Start introduction section -->
+        
+        <!-- Modifications -->
+        <!-- section-introduction--small : height of section = 300px (twice smaller that default) -->
+        <!-- section-introduction--big: height of section = 800px -->
+        
+        <section id="introduction" class="section introduction section-introduction--small">
+          <div class="container">
+        
+            <div class="introduction__row">
+        
+              <div class="text--center">
+        
+                <h1>Title Default</h1>
+        
+        
+                <h2>And have a good day as well!</h2>
+        
+                <img data-src="img/logo.svg" alt="">
+              </div>
+        
+            </div>
+        
+        
+          </div>
+        </section>
+        <!-- End introduction section -->        <!-- End introduction -->
+
+        <!-- Start section-template -->
+        
+        <!-- Start name section -->
+        <section class="section name name--modification-1 name--modification-2" id="name">
+          <div class="container">
+        
+            <h2 class="title title--section fadeInDown animated">
+              Section title
+            </h2>
+        
+        
+            <div class="name__row">
+              <div>
+              </div>
+            </div>
+        
+          </div>
+        </section>
+        <!-- End name section -->        <!-- End section-template -->
+
+        <!-- Start section-numbers-template -->
+        
+        <!-- Start name section -->
+        <section class="section name number-animated ">
+          <div class="container">
+            <h2 class="title title--section text--center fadeInDown animated">
+              Section numbers title
+            </h2>
+        
+            <ul>
+              <li>
+                <strong class="counter-number" data-count="200"><span class="counter-number-item">0</span>+</strong>
+                <span class="counter-title">Employee</span>
+              </li>
+              <li>
+                <strong class="counter-number" data-count="2"><span class="counter-number-item">0</span>M</strong>
+                <span class="counter-title">Users Protected</span>
+              </li>
+            </ul>
+        
+          </div>
+        </section>
+        <!-- End name section -->        <!-- End section-numbers-template -->
+
+        <section class="section section--default section-service">
+            <div class="container">
+
+
+                <!-- Start pagination -->
+                <ul class="pagination">
+                  <li> <a class="prev" href="">&nbsp;</a> </li>
+                  <li> <a class="active" href="">1</a> </li>
+                  <li> <a href="">2</a> </li>
+                  <li> <a href="">3</a> </li>
+                  <li> <span>...</span> </li>
+                  <li> <a href="">80</a> </li>
+                  <li> <a class="next" href="">&nbsp;</a> </li>
+                </ul>
+                <!-- End pagination -->
+                <!-- Start Carousel -->
+                <div class="slider">
+                  <div class="slider__item">
+                    <h4> 1 </h4>
+                  </div>
+                  <div class="slider__item">
+                    <h4> 2 </h4>
+                  </div>
+                  <div class="slider__item">
+                    <h4> 3 </h4>
+                  </div>
+                  <div class="slider__item">
+                    <h4> 4 </h4>
+                  </div>
+                  <div class="slider__item">
+                    <h4> 5 </h4>
+                  </div>
+                </div>
+                <!-- End Carousel -->
+                <!-- Start Input file -->
+                <input type="file" name="file" id="file" class="inputFile"/>
+                <label for="file"><span> Choose a file</span></label>
+                <!-- End  Input file -->
+
+                <!-- Start Lazy loading -->
+                <!-- !!! In case lazy images you need to import them in index.js !!! -->
+                <!-- <img data-src="img/logo.svg" src="img/logo.svg" alt="test image"> -->
+                <!-- <div data-url="img/logo.svg" style="background-image: url(img/logo.svg);"></div> -->
+                <!-- End Lazy loading -->
+
+                <!-- Start image responsive (without lazyload) -->
+                <img src="img/test-1x.png" srcset="assets/img/test-1x.png 1x, img/test-2x.png 2x" alt="">
+                <!-- End image responsive (without lazyload) -->
+
+            </div>
+        </section>
+
+    </div>
+    <!--End page-->
+
+    <!-- Start footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__row">
+                <div>
+                    <h4>Partners</h4>
+                    <a href="#">Verlat Immo</a>
+                    <a href="#">24 Projects</a>
+                    <a href="#">YD Projects</a>
+                </div>
+                <div>
+                    <h4>Omgeving</h4>
+                    <a href="#">Boechout</a>
+                    <a href="#">Natuurpunt</a>
+                </div>
+                <div>
+                    <h4>Vremde7</h4>
+                    <a href="#">Plannen</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <div class="footer__row footer__row--bottom">
+                <a href="#" class="float-right fold">Crafted by FOLD.eu</a>
+            </div>
+        </div>
+    </footer>    <!-- End footer -->
+
+</div>
+<!-- End site wrapper -->
+<script type="text/javascript" src="bundle.js"></script><script type="text/javascript" src="svgsprite.js"></script></body>
+
+</html>
